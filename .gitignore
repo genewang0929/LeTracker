@@ -1,0 +1,30 @@
+# Binaries
+# 編譯出來的執行檔
+/bin/
+/dist/
+letracker
+letracker.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment Variables -- 重要！防止 DB_DSN 洩漏
+.env
+.env.local
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories (optional, Go modules usually handle this via go.sum)
+vendor/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage.txt
