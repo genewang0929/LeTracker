@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                width: 300px;
+                padding: 15px;
+                font-family: sans-serif;
+            }
+            button {
+                width: 100%;
+                padding: 10px;
+                background: #ffa116;
+                border: none;
+                color: white;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            button:hover {
+                background: #e89214;
+            }
+            #status {
+                margin-top: 10px;
+                font-size: 12px;
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>LeTracker Sync</h3>
+        <p>Make sure you are logged into LeetCode.</p>
+        <button id="syncBtn">Sync History Now</button>
+        <div id="status"></div>
+        <script src="popup.js"></script>
+    </body>
+</html>
